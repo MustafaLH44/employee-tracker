@@ -7,7 +7,7 @@ const {
     addRole,
     addEmployee,
     updateEmployeeRole,
-} = require('./queries');
+} = require('./db/queries');
 
 const mainMenu = async () => {
     const { choice } = await inquirer.prompt([
