@@ -1,4 +1,4 @@
-const client = require('./db');
+const client = require('./connection');
 
 const getDepartments = async () => {
     const res = await client.query('SELECT * FROM department');
